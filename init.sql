@@ -15,11 +15,11 @@ CREATE TABLE products (
     product varchar(255),
     price varchar(255),
     amount varchar(255),
-    bag varchar(255)
+    dates varchar(255)
 );
 
 INSERT INTO users VALUES(null, "juan", "juan@gmail.com", "juan", "123"),
     (null, "maria", "maria@gmail.com", "maria", "456");
 
-INSERT INTO products VALUES(null, "Tomates", "500", "4", "yes"),
-    (null, "Piñas", "2000", "7", "yes");
+INSERT INTO products VALUES(null, "Tomates", "500", "4", "2/05/2024"),
+    (null, "Piñas", "2000", "7", "1/04/2026");
